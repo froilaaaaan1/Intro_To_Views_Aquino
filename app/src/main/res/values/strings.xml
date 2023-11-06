@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Intro_To_Views_Aquino</string>
+    <string name="app_name">PRACTICAL EXAMINATION - SET B</string>
+    <string name="accountable_officer">ACCOUNTABLE OFFICER</string>
+    <string name="property_number">PROPERTY NUMBER</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="amount">AMOUNT</string>
+    <string name="ph_pn">PN</string>
+    <string name="ph_description">Description</string>
+    <string name="ph_amount">Amount</string>
+    <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="submit">SUBMIT</string>
 </resources>
