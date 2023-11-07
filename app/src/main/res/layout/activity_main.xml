@@ -6,10 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/inventory_information"
+        android:textStyle="bold"
+        android:textColor="@color/action"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,13 +118,13 @@
         android:id="@+id/propertyNoOneField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:width="90dp"
         android:autofillHints="PN"
-        android:hint="@string/pn"
         android:ems="10"
+        android:hint="@string/pn"
         android:inputType="number"
         android:minHeight="48dp"
-        android:width="90dp"
-        android:textColorHint="#8D6E63"
+        android:textColorHint="#795548"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -129,12 +136,13 @@
         android:id="@+id/propertyNoTwoField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/pn"
-        android:autofillHints="PN"
-        android:ems="10"
-        android:inputType="number"
         android:width="90dp"
         android:height="48dp"
+        android:autofillHints="PN"
+        android:ems="10"
+        android:hint="@string/pn"
+        android:inputType="number"
+        android:minHeight="48dp"
         android:textColorHint="#8D6E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -217,13 +225,16 @@
 
     <Button
         android:id="@+id/submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="@string/submit"
-        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:drawableTop="@drawable/baseline_check_circle_24"
+        app:layout_constraintVertical_bias="0.60"
+        app:layout_constraintHorizontal_bias="0.50"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="589dp" />
 
