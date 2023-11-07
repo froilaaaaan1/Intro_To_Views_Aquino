@@ -116,14 +116,14 @@
         android:ems="10"
         android:inputType="number"
         android:width="90dp"
-        android:height="24dp"
+        android:height="48dp"
         android:textColorHint="#8D6E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.40" />
 
     <EditText
         android:id="@+id/descriptionNoOneField"
@@ -152,17 +152,35 @@
         android:ems="10"
         android:inputType="text"
         android:minHeight="48dp"
-        android:width="90dp"
+        android:width="150dp"
         android:textColorHint="#8D6E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.40" />
 
     <EditText
         android:id="@+id/amountNoOneField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:width="120dp"
+        android:textColorHint="#8D6E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.90"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32"
+        android:autofillHints="@string/amount" />
+
+    <EditText
+        android:id="@+id/amountNoTwoField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints="Amount"
@@ -177,23 +195,6 @@
         app:layout_constraintHorizontal_bias="0.90"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32" />
-
-    <EditText
-        android:id="@+id/amountNoTwoField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autofillHints="Amount"
-        android:hint="@string/amount"
-        android:ems="10"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:textColorHint="#8D6E63"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.40" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
