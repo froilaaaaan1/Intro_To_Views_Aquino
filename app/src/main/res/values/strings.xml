@@ -8,5 +8,6 @@
     <string name="ph_description">Description</string>
     <string name="ph_amount">Amount</string>
     <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="pn">PN</string>
     <string name="inventory_information">INVENTORY INFORMATION</string>
 </resources>
