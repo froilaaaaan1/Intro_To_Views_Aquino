@@ -10,4 +10,5 @@
     <string name="total_amount">TOTAL AMOUNT:</string>
     <string name="pn">PN</string>
     <string name="inventory_information">INVENTORY INFORMATION</string>
+    <string name="submit">SUBMIT</string>
 </resources>
